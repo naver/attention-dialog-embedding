@@ -1,0 +1,13 @@
+cffi==1.11.0
+cmake==0.8.0
+cycler==0.10.0
+matplotlib==2.0.2
+numpy==1.13.1
+pycparser==2.18
+pyparsing==2.2.0
+python-dateutil==2.6.1
+pytz==2017.2
+PyYAML==3.12
+six==1.11.0
+torch==0.2.0.post3
+torchwordemb==0.0.8
