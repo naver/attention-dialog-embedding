@@ -27,7 +27,7 @@ Automatic conversion code will be provided soon.
 
 ### License
 This project is distributed under Apache License, Version 2.0.
-See [LICENSE](LICENSE) for fulll license text.
+See [LICENSE](LICENSE) for full license text.
 
 ```
 Copyright 2017 NAVER Corp.
