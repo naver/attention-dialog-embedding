@@ -1,2 +1,4 @@
 __pycache__/*
+*.pyc
 auto_pep8.sh
+.venv
