@@ -1,29 +1,31 @@
-# DBDC3 of DSTC6
-## NCDS Team
-
+# DBDC3 of DSTC6 - NCDS Team
 ## Attention-based Dialog Embedding for Dialog Breakdown Detection
 Despite the recent advent of dialog systems, we have seen that there are still many challenges unresolved and the system often generates responses causing a breakdown in the interaction between a user and the system.
 The dialog breakdown significantly damages user experience, and thus detecting such failure is significant.
 We propose a model to detect dialog breakdown using the recurrent neural network and attention layer to embed a previous dialog context. 
 This model determines the probability of breakdown using the extracted dialog context vector and the target sentence's representation vector.
-We submitted this study to the [Dialog Breakdown Detection Challenge 3](https://dbd-challenge.github.io/dbdc3/) of [Dialog System Technology Challenge 6](http://workshop.colips.org/dstc6/), and the results showed that it significantly outperforms the most of other models in estimating breakdown probability.
+We submitted this study to the [Dialog Breakdown Detection Challenge 3](https://dbd-challenge.github.io/dbdc3/) of [Dialog System Technology Challenge 6](http://workshop.colips.org/dstc6/), and the results showed that it significantly outperforms the most of other models in estimating breakdown probability.  
+You can find more detailes in our workshop [paper](http://workshop.colips.org/dstc6/papers/track3_paper14_park.pdf).
 
-### Installing dependencies
-Recommend you to use *virtualenv*!
- `pip3 install -r requirements.txt`
-You need pytorch, torchwordemb and more. Please refer to the `requirements.txt` file.
+### Install dependencies
+Recommend you to use *virtualenv*.  
+1. Install [*pytorch*](http://pytorch.org/)
+2. `pip3 install cffi`
+2. `pip3 install -r requirements.txt`
 
-### before running the main file
-1. you need data files in ./data directory
-- glove twitter vectors
-- [dataset](https://github.com/dbd-challenge/dbdc3) provided by DBDC 3 
+### Before running the main file
+1. you need data files in *data* directory
+- pre-trained glove twitter vectors
+- DBDC 3 [dataset](https://github.com/dbd-challenge/dbdc3) 
 Note that you need to modify the given data into the proper format for our model
 Automatic conversion code will be provided soon.
 2. check the parser options
 
 
-### run main_glove file
+### Run main file
 `python3 main_glove.py`
+
+### 
 
 ### License
 This project is distributed under Apache License, Version 2.0.
