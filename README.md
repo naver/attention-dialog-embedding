@@ -1,10 +1,11 @@
 # DBDC3 of DSTC6 - NCDS Team
 ## Attention-based Dialog Embedding for Dialog Breakdown Detection
-Despite the recent advent of dialog systems, we have seen that there are still many challenges unresolved and the system often generates responses causing a breakdown in the interaction between a user and the system.
+Despite the recent advent of dialog systems, still many challenges are unresolved and the system often generates responses causing a breakdown in the interaction between a user and the system.
 The dialog breakdown significantly damages user experience, and thus detecting such failure is significant.
 We propose a model to detect dialog breakdown using the recurrent neural network and attention layer to embed a previous dialog context. 
 This model determines the probability of breakdown using the extracted dialog context vector and the target sentence's representation vector.
 We submitted this study to the [Dialog Breakdown Detection Challenge 3](https://dbd-challenge.github.io/dbdc3/) of [Dialog System Technology Challenge 6](http://workshop.colips.org/dstc6/), and the results showed that it significantly outperforms the most of other models in estimating breakdown probability.  
+
 You can find more detailes in our workshop [paper](http://workshop.colips.org/dstc6/papers/track3_paper14_park.pdf).
 
 ### Install dependencies
@@ -23,7 +24,7 @@ Automatic conversion code will be provided soon.
 
 
 ### Run main file
-`python3 main_glove.py`
+`python3 main.py`
 
 ### 
 
